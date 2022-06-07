@@ -94,7 +94,7 @@ ul {
 .popup-form-row {
   margin-bottom: 25px;
 }
-.popup-form-row:nth-last-child(1){
+.popup-form-row-button{
   margin-bottom: 0;
 }
 .popup-form-label, .popup-form-span {
