@@ -15,8 +15,8 @@
             <h3>Ваш фидбэк</h3>
             <form action="" class="popup-form">
                 <div class="popup-form-row">
-                    <label for="items-select">Как часто вы заходите на сайт?</label>
-                    <select id="items-select">
+                    <label class="popup-form-label" for="items-select">Как часто вы заходите на сайт?</label>
+                    <select class="popup-form-select" id="items-select">
                         <option>Почти каждый день</option>
                         <option>Раз в несколько дней</option>
                         <option>Раз в несколько недель</option>
@@ -24,19 +24,19 @@
                     </select>
                 </div>
                 <div class="popup-form-row">
-                    <span class="radio-group-name">Вы подписаны на e-mail рассылку?</span>
-                    <label class="radio-group">
+                    <span class="popup-form-span radio-group-name">Вы подписаны на e-mail рассылку?</span>
+                    <label class="popup-form-label radio-group">
                         <input type="radio" class="radio" id="ry" name="radio-group">
-                        <span class="radio-group-text">Да</span>
+                        <span class="popup-form-span radio-group-text">Да</span>
                     </label>
-                    <label class="radio-group">
+                    <label class="popup-form-label radio-group">
                         <input type="radio" class="radio" id="rn" name="radio-group">
-                        <span class="radio-group-text">Нет</span>
+                        <span class="popup-form-span radio-group-text">Нет</span>
                     </label>
                 </div>
                 <div class="popup-form-row">
-                    <label class="popup-comment" for="comment">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
-                    <textarea name="comment" id="comment" placeholder="Может, больше рецептов?"></textarea>
+                    <label class="popup-form-label popup-comment" for="comment">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+                    <textarea class="popup-form-text" name="comment" id="comment" placeholder="Может, больше рецептов?"></textarea>
                 </div>
                 <div class="popup-form-row">
                     <button class="popup-button" type="submit" alt="Кнопка отправить">Отправить</button>
