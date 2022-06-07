@@ -308,28 +308,28 @@ ul {
 }
 
 /* main-content */
-.main-content .container {
+.container-main {
   display: flex;
 }
-.main-content img {
+.post-img-images {
   width: 100%;
   height: auto;
 }
-.post-header a {
+.post-header-link {
   color: #0f0d0e;
 }
-.post-header a:hover {
+.post-header-link:hover {
   color: #b59f5b;
 }
 .post-date {
   margin-bottom: 45px;
   font-size: 12px;
 }
-.post-date time {
+.post-date-time {
   color: #888888;
   margin-right: 8px;
 }
-.post-date span {
+.post-avtor {
   font-weight: bold;
 }
 .post-content p {
@@ -350,7 +350,7 @@ ul {
 .new-post-img {
   min-width: 70px;
 }
-.new-post-img img {
+.new-post-img-images {
   width: 70px;
 }
 .new-post-date {
