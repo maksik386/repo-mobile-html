@@ -508,7 +508,7 @@ ul {
 .product {
   padding: 20px;
 }
-.product-img img {
+.product-img-images {
   width: 100%;
   height: auto;
 }
@@ -518,9 +518,7 @@ ul {
   padding-top: 15px;
   margin-top: -15px;
 }
-.product-content a {
-  color: #b59f5b;
-}
+
 .product-heading {
   padding-top: 15px;
 }
@@ -549,7 +547,7 @@ ul {
 .product-new-price {
   font-size: 20px;
 }
-.product-price-btn a {
+.product-price-btn-link {
   display: block;
   padding: 20px 30px;
   background: #b59f5b;
@@ -558,7 +556,7 @@ ul {
   text-align: center;
   font-size: 14px;
 }
-.product-price-btn a:hover {
+.product-price-btn-link:hover {
   background: #323232;
 }
 
