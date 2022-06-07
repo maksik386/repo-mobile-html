@@ -231,7 +231,7 @@ ul {
     width: 25px;
     z-index: 1;
   }
-  .burger span {
+  .burger-line {
     display: block;
     height: 3px;
     background-color: #fff;
