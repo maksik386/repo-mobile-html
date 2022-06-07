@@ -372,10 +372,10 @@ ul {
 .search {
   margin-top: 60px;
 }
-.search form {
+.search-form {
   display: flex;
 }
-.search form label {
+.search-form-label {
   width: 100%;
 }
 .search-field{
