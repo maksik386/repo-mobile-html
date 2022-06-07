@@ -449,9 +449,9 @@ ul {
 .tags {
   margin-top: 60px;
 }
-.tags h3 {
+/* .tags-heading {
   margin-bottom: 20px;
-}
+} */
 .tags-nav {
   list-style: none;
   display: flex;
@@ -472,7 +472,7 @@ ul {
 }
 
 /*themes*/
-.themes h3 {
+.themes-heading{
   margin-top: 60px;
 }
 .themes-nav {
@@ -487,16 +487,16 @@ ul {
   font-size: 14px;
   font-weight: bold;
 }
-.themes-nav-item a {
+.themes-nav-item-link {
   color: #000;
 }
-.themes-nav-item a:hover {
+.themes-nav-item-link:hover {
   color: #b59f5b;
 }
 .thems-nav-first {
   padding-top: 0;
 }
-.themes-nav-item span {
+.themes-nav-item-number {
   display: inline-block;
   vertical-align: super;
   padding-top: 0;
