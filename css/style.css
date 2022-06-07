@@ -358,13 +358,13 @@ ul {
   font-size: 12px;
   color: #888888;
 }
-.new-post-heading a {
+.new-post-heading-link {
   color: #000;
 }
-.new-post-heading a:hover {
+.new-post-heading-link:hover {
   color: #b59f5b;
 }
-.new-post-heading h4 {
+.new-post-heading-text {
   font-size: 14px;
 }
 /*FORM*/
